@@ -2,7 +2,7 @@
 
 > This is WIP, I'm using it in my prod setup but note that this is not an official AWS project or product in any form or shape.
 
-`aws-tmux` is a simple AWS status indicator, currently showing the configured AWS region.
+`aws-tmux` is a simple AWS status indicator, currently showing the configured AWS profile and region.
 
 The prerequisites for this `tmux` status indicator to work is that you have the 
 [AWS CLI](https://aws.amazon.com/cli/) tool installed.
@@ -22,3 +22,4 @@ tmux set status-interval 5
 ```
 
 Provided as is, use at your own risk! I might turn this into a proper [TPM plugin](https://github.com/tmux-plugins/tpm/blob/master/docs/how_to_create_plugin.md) one day.
+
